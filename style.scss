@@ -1,0 +1,131 @@
+:root {
+    --color-title-and-paragraph-and-link: #FC4308;
+    --color-year: #FC4308CC;
+    --color-first-background: linear-gradient(233.95deg, #0D1E20 -73.12%, #313E2A 53.36%, #262D20 103.17%), #FFFFFF;
+    --color-second-and-fourth-background: #0E1513;
+    --color-third-background: linear-gradient(90deg, #323E2A 0%, #101815 100%);
+    --color-hover-access-background: #313E2A;
+    --color-hover-access-black-background: #161a19;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Montserrat' !important;
+}
+
+h1,
+h2,
+p {
+    color: var(--color-title-and-paragraph-and-link) !important;
+}
+
+.container-wrapper {
+    background: var(--color-first-background);
+}
+
+.big-title {
+    font-size: 80px;
+    line-height: 85px;
+}
+
+.big-title,
+.description {
+    padding-bottom: 20px;
+}
+
+.little-name {
+    font-size: 18px;
+}
+
+a,
+.description {
+    font-size: 16px;
+}
+
+.year {
+    font-size: 14px;
+    padding-top: 20px;
+    color: var(--color-year) !important;
+    text-transform: uppercase;
+}
+
+.first {
+    padding: 50px 0px;
+}
+
+.photo {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.second {
+    padding: 30px 0;
+}
+
+.second-title {
+    padding: 15px 0 15px 0;
+}
+
+.btn-second {
+    padding-top: 50px;
+}
+
+.second,
+.fourth {
+    background: var(--color-second-and-fourth-background);
+}
+
+.third {
+    background: var(--color-third-background);
+    padding: 50px 0;
+}
+
+.gabriela,
+.amara,
+.pryia {
+    padding-bottom: 100px;
+}
+
+.name {
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+.girl {
+    padding-left: 100px;
+}
+
+.link {
+    padding: 40px 0 20px 0;
+}
+
+.fourth {
+    padding: 325px;
+}
+
+.access,
+.access-black {
+    color: var(--color-title-and-paragraph-and-link);
+    text-decoration: none !important;
+    padding: 10px 15px;
+    border: solid 1px var(--color-title-and-paragraph-and-link);
+    border-radius: 2px;
+}
+
+.access:hover {
+    background: var(--color-hover-access-background);
+}
+
+.access-black:hover {
+    background: var(--color-hover-access-black-background);
+}
+
+@media (min-width: 992px) {
+
+}
